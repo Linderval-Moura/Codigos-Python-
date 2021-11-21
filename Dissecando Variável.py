@@ -1,0 +1,32 @@
+a = (input('Digite algo: '))
+
+t = type(a)
+es = a.isspace()
+n = a.isnumeric()
+al = a.isalpha()
+aln = a.isalnum()
+mai = a.isupper()
+minu = a.islower()
+cap = a.istitle()
+
+print('\n COM .FORMAT\n')
+
+print('O tipo primitivo desse valor é {}'.format(t))
+print('Só tem espaços?{}'.format(es))
+print('É um número?{}'.format(n))
+print('É alfabético?{}'.format(al))
+print('É alfanumérico?{}'.format(aln))
+print('Está em maiúsculas?{}'.format(mai))
+print('Está em minúsculas?{}'.format(minu))
+print('Está capitalizada?{}'.format(cap))
+
+print('\n Direto no print\n')
+
+print('O tipo primitivo desse valor é', type(a))
+print('Só tem espaços? ', a.isspace())
+print('É um número? ', a.isnumeric())
+print('É alfabético? ', a.isalpha())
+print('É alfanumérico? ', a.isalnum())
+print('Está em maiúsculas? ', a.isupper())
+print('Está em minúsculas? ', a.islower())
+print('Está capitalizada? ', a.istitle())
