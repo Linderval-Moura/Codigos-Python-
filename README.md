@@ -1,1 +1,1 @@
-Olá, esses são alguns códigos e atividades feitos durante o curso de Sistemas de Infprmação! 
+Olá, estes são alguns códigos e atividades feitas durante o curso de Sistemas de Informação!
